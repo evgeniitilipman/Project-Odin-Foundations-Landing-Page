@@ -1,26 +1,72 @@
+html{
+    padding: 0px;
+    margin: 0px;
+}
 body{
-    font-family: sans-serif;
+    font-family: "inter", "Roboto", sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background-color: #F9FAF8;
+}
+header{
+    width: 100%;
+    padding: 32px 0px;
+    position: fixed;
+    top: 0px;
+}
+footer{
+    padding: 40px 0px;
 }
 h1 {
+    margin:0px;
     font-size: 48px;
     font-weight: 900;
 }
 h2{
+    margin: 0px;
     font-size: 36px;
     font-weight: 900;
+}
+ul{
+    margin: 0px;
+}
+li{
+    list-style: none;
 }
 a{
     text-decoration: none;
     color: #E5E7EB;
+}
+.bold{
+    font-weight: 700;
+}
+.text-align-center{
+    text-align: center;
+}
+.is--home-hero{
+    padding: 200px 0px 100px;
+}
+.padding-top-btm-100{
+    padding: 100px 0px;
+}
+.img-wrapper{
+    width: 50%;
+    aspect-ratio: 16/9;
 }
 .container{
     max-width: 1216px;
     margin: 0px auto;
     padding: 0px 32px;
 }
+.is--small{
+    max-width: 1096px;
+}
 .header-logo{
     font-size: 24px;
     font-weight: 700;
+}
+.background-color-dark-grey{
+    background-color: darkgrey;
 }
 .background-color-dark{
     background-color: #1F2937;
@@ -49,14 +95,13 @@ a{
 .border-radius-16px{
     border-radius: 16px;
 } 
-.border-radius-24px{
-    border-radius: 24px;
-} 
 .btn{
-    padding: 8px 16px;
+    padding: 8px 24px;
+    font-size: 20px;
 }
 .is--secondary{
     background-color: rgba(229, 231, 235, 0);
+    border-color: #F9FAF8;
 }
 .quote-txt{
     font-size: 36px;
@@ -66,9 +111,19 @@ a{
 .flex{
     display: flex;
 }
+.justify-content-center{
+    justify-content: center;
+}
 .justify-content-space-between{
     justify-content: space-between;
 }
+.justify-content-end{
+    justify-content: end;
+}
+.align-items-flex-start{
+    align-items: flex-start;
+}
+
 .align-items-center{
     align-items: center;
 }
@@ -78,6 +133,32 @@ a{
 .flex-wrap{
     flex-wrap: wrap;
 }
+.gap-16{
+    gap: 16px;
+}
+.gap-24{
+    gap: 24px;
+}
+.gap-32{
+    gap: 32px;
+}
 .section-margin{
     margin-bottom: 100px;
+}
+.is--cta{
+    padding: 80px 32px;
+}
+.max-width-14{
+    max-width: 14ch;
+}
+.max-width-46{
+    max-width: 46ch;
+}
+.max-width-200{
+    max-width: 200px;
+}
+.card{
+    border: solid #3882F6 5px;
+    width: 200px;
+    aspect-ratio: 1;
 }
